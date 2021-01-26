@@ -1,0 +1,26 @@
+
+
+.section{
+    width:200 px;
+    background-color: rgba(167, 167, 192, 0.637);
+}
+
+.box1{
+    width:10px;
+background: #a761e973;
+border: white solid 2px;
+border-radius: 10px;
+
+}
+
+
+/* paramètre pour les petits ecran le but sera d'avoir une ligne que se mette en colonne */
+@media (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+    p{
+        color:white;
+    }
+  }
+
