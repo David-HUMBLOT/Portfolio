@@ -8,22 +8,40 @@ font-family: 'Montserrat', sans-serif;
 
 html{
    height: 100%;
+   
 }
 
+body{
+    background-color:rgba(61, 44, 44, 0.514)!important;
+
+}
 /* header */
 
 
 .box1 {
-    background-image:  url("/img/informatique.png");
+    /* background-image:  url("/img/informatique.png");
     background-repeat: cover no-repeat;
-    background-color:rgba(240, 240, 240, 0.514);
+    /* background-color:rgba(240, 240, 240, 0.514); */
+    background-color:rgba(61, 44, 44, 0.267)!important; 
     height: 32em; 
 }
 
+.box1 h1, h2, p{
+    color:white;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: large!important;
+}
 
+.navbar{
+    background-color:rgba(240, 240, 240, 0.514)!important;
+}
+.nav-link{
+    color:white!important;
+    font-weight: bold!important;
+}
 
  .navbar .logo img  {
-  height:13vh!important;
+  height:3.5em!important;
   
 }
 
