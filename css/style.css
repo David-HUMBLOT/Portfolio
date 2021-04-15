@@ -24,10 +24,8 @@ html{
 
  .navbar .logo img  {
   height:13vh!important;
-  float: left;
+  
 }
 
-.header .navbar .menu{
-    float:right;
-}
+
 
