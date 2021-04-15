@@ -26,7 +26,13 @@ body{
     height: 32em; 
 }
 
-.box1 h1, h2, p{
+.box1 h1{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
+    font-size: 400%!important;
+}
+
+.box1  h2, p{
     color:white;
     font-family: 'Montserrat', sans-serif!important;
     font-size: large!important;
