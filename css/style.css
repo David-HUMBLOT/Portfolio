@@ -6,12 +6,28 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
-/* html{
-    background-color : black;
-} */
+html{
+   height: 100%;
+}
 
 /* header */
-.logo img {
-  height:20vh!important;
+
+
+.box1 {
+    background-image:  url("/img/informatique.png");
+    background-repeat: cover no-repeat;
+    background-color:rgba(240, 240, 240, 0.514);
+    height: 32em; 
+}
+
+
+
+ .navbar .logo img  {
+  height:13vh!important;
+  float: left;
+}
+
+.header .navbar .menu{
+    float:right;
 }
 
