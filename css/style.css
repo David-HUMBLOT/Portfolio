@@ -5,3 +5,13 @@ font-family: 'Montserrat', sans-serif;
 /* 
 font-family: 'Montserrat', sans-serif;
 */
+
+/* html{
+    background-color : black;
+} */
+
+/* header */
+.logo img {
+  height:20vh!important;
+}
+
