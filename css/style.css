@@ -12,13 +12,18 @@ html{
 }
 
 body{
-    background-color:rgba(61, 44, 44, 0.514)!important;
+    background-color:rgba(255, 255, 255, 0.514)!important;
 
 }
 /* header */
 
 .logo{
-    font-size: 25px!important;
+    font-size: 10px!important;
+    margin-left: 55px!important;
+}
+
+.container .navbar {
+    background-color: rgb(85, 85, 85)!important;
 }
 
 .box1 {
@@ -31,17 +36,54 @@ body{
 
 .box1 h1{
     margin-top: 8%!important;
-    color:rgb(240, 240, 240);
+    color:rgb(92, 92, 92);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
     font-size: 400%!important;
 }
 
 .box1  h2, p{
-    color:white;
+    color:rgb(49, 49, 49);
     font-family: 'Montserrat', sans-serif!important;
 
 }
 
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans&display=swap');
+
+.box2{
+  display: flex;
+  min-width: 600px;
+  max-width: 900px;
+  height: 400px;
+  margin: 4rem auto;
+}
+
+/**Parametrage des img2**/
+.image2{
+   min-width: 60px;
+   margin: 10px;
+   cursor: pointer; /*cureur pointeur pour montrer que l'élément est cliquable avec la souris*/
+   /**pour faire un effet de smooth*/
+   transition: .5 cubic-bezier(0.05, 0.61, 0.41, 0.95);
+   /*overflow caché pour tout ce qui dépassera*/
+   overflow: hidden;
+   position: relative; /**pour mettre les élément an absolu par la suite à l intérieur**/
+}
+
+/**zoom de l image2 avec la classe active2**/
+.image2.active2{
+    flex-grow: 100;
+    max-width: 600px; /**pour pas que l'image2 s'élargisse à l infini**/
+    margin:0px;
+    border-radius: 7px;
+    background-size: auto 100%;
+
+}
+
+/**image NON ACTIVE grow à 1*/
+.image2:not(.active2){
+    flex-grow: 1;
+    border-radius: 5px;
+}
 
 /* query smatphone */
 
