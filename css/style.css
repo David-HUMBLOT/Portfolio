@@ -11,7 +11,7 @@ html{
    
 }
 body{
-    background-color:rgba(255, 255, 255, 0.514)!important;
+    background-color:rgba(180, 180, 180, 0.514)!important;
 }
 
 
@@ -21,47 +21,74 @@ body{
 /* header */
 /* **************************************************************** */
 /* **************************************************************** */
+
+
+.navbar{
+    background-color:rgba(240, 240, 240, 0.514)!important;
+}
+.nav-link{
+    color:white!important;
+    font-weight: bold!important;
+}
+
+ .navbar .logo img  {
+  height:3.5em!important;
+  
+}
+
+
 .logo{
     font-size: 10px!important;
     margin-left: 55px!important;
 }
+
+
 .container .navbar {
-    background-color: rgb(85, 85, 85)!important;
+    background-color: rgb(228, 228, 228)!important;
 }
+
+
+
 .box1 {
     /* background-image:  url("/img/informatique.png");
     background-repeat: cover no-repeat;
     /* background-color:rgba(240, 240, 240, 0.514); */
-    background-color:rgba(61, 44, 44, 0.267)!important; 
+    background-color:rgba(83, 62, 62, 0.267)!important; 
     height: 32em; 
 }
 .box1 h1{
     margin-top: 8%!important;
-    color:rgb(92, 92, 92);
+    color:rgb(51, 51, 51);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
     font-size: 400%!important;
 }
 .box1  h2, p{
-    color:rgb(49, 49, 49);
+    color:rgb(12, 12, 12);
     font-family: 'Montserrat', sans-serif!important;
+}
+
+#cat{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 45px;
 }
 /* **************************************************************** */
 /* **************************************************************** */
-
-
-
-
 
 
 /* @import url('https://fonts.googleapis.com/css?family=Expletus+Sans&display=swap'); */
 /* **************************************************************** */
 /* **************************************************************** */
+.box2-image{
+    background-color: rgb(221, 219, 219)!important;
+}
+
 .box2{
   display: flex;
   min-width: 600px;
   max-width: 900px;
   height: 400px;
-  margin: 4rem auto;
+  margin: 4rem auto; 
 }
 /**Parametrage des img2**/
 .image2{
@@ -168,9 +195,15 @@ body{
     .box1 h1{
       
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
-        font-size: 300%!important;
+        font-size: 250%!important;
     }
     
+    #cat{
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+    }
+
     #imgbox1{
       margin-left:52%!important;
      margin-top: 63%!important;
@@ -184,24 +217,77 @@ body{
 
 
 
+/* **************************************************************** */
+/* **************************************************************** */
+.box2-image{
+    background-color: rgb(196, 50, 50)!important;
+}
 
+.box2{
+  display: flex;
+  min-width: 300px;
+  max-width: 600px;
+  height: 280px;
+  margin: 1rem auto; 
+}
+/**Parametrage des img2**/
+.image2{
+   min-width: 40px;
+   margin: 4px;
+   cursor: pointer; /*cureur pointeur pour montrer que l'élément est cliquable avec la souris*/
+   /**pour faire un effet de smooth*/
+   transition: .7s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+   /*overflow caché pour tout ce qui dépassera*/
+   overflow: hidden;
+   position: relative; /**pour mettre les élément an absolu par la suite à l intérieur**/
+}
+/**zoom de l image2 avec la classe active2**/
+.image2.active2{
+    flex-grow: 100;
+    max-width: 700px; /**pour pas que l'image2 s'élargisse à l infini**/
+    margin:0px;
+    border-radius: 5px;
+    background-size: auto 100%;
+}
+/**image NON ACTIVE grow à 1*/
+.image2:not(.active2){
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.text-container2{
+    width: 100%; /**taille de son parent**/
+    height: 280px; /**taille de son parent**/
+    padding: 0.5em;
+    /* faire aparaitre le texte depuis le bas en le rendant de plus en plus opaque*/
+    visibility: hidden; /**on le cache au départ**/
+    transform: translateY(300px); /**on place le text en bas**/
+    opacity: 0;
+    transition: all .4s;
+    background: linear-gradient(354deg, black 0%, 
+    transparent 72%);
+    color: white;
+    overflow: hidden;
+}
+/**parametrage text2**/
+.text2{
+    position: absolute;
+    bottom: 5rem;
+}
+.text2 p{
+    color: white;
+}
+.active2 .text-container2{
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 
 
+}
+/* Fin paramètre média queries */
 
-.navbar{
-    background-color:rgba(240, 240, 240, 0.514)!important;
-}
-.nav-link{
-    color:white!important;
-    font-weight: bold!important;
-}
 
- .navbar .logo img  {
-  height:3.5em!important;
-  
-}
 
 
 
