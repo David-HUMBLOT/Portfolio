@@ -1,3 +1,49 @@
+
+
+
+
+
+
+.redline{
+    background-color: brown;
+    height: 5px;
+}
+
+
+
+.image_outer_container{
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    border-radius: 50%;
+    position: relative;
+}
+
+.image_inner_container{
+    border-radius: 50%;
+    padding: 5px;
+ background: #833ab4; 
+ background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4); 
+ background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+}
+.image_inner_container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.image_outer_container .green_icon{
+  background-color: #4cd137;
+  position: absolute;
+}
+
+.div1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
+    font-size: 400%!important;
+}
+
+
+
 /*  
 font-family: 'Montserrat', sans-serif;
 */
@@ -11,9 +57,8 @@ html{
    
 }
 body{
-    background-color:rgba(180, 180, 180, 0.514)!important;
+    background-color:rgb(0, 0, 0)!important;
 }
-
 
 
 
@@ -24,23 +69,13 @@ body{
 
 
 .navbar{
-    background-color:rgba(240, 240, 240, 0.514)!important;
+    background-color:rgb(20, 20, 20)!important;
 }
 .nav-link{
     color:white!important;
     font-weight: bold!important;
 }
 
- .navbar .logo img  {
-  height:3.5em!important;
-  
-}
-
-
-.logo{
-    font-size: 10px!important;
-    margin-left: 55px!important;
-}
 
 
 .container .navbar {
@@ -53,17 +88,24 @@ body{
     /* background-image:  url("/img/informatique.png");
     background-repeat: cover no-repeat;
     /* background-color:rgba(240, 240, 240, 0.514); */
-    background-color:rgba(83, 62, 62, 0.267)!important; 
-    height: 32em; 
+    background-color:rgba(90, 72, 72, 0.267)!important; 
+    
+    height: 30em; 
 }
 .box1 h1{
-    margin-top: 8%!important;
-    color:rgb(51, 51, 51);
+   
+    color:rgb(247, 247, 247);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
     font-size: 400%!important;
 }
-.box1  h2, p{
-    color:rgb(12, 12, 12);
+.box1  h2{
+    color:rgb(255, 255, 255);
+    font-size: 400%!important;
+    /* font-family: 'Montserrat', sans-serif!important; */
+}
+
+.box1   p{
+    color:rgb(187, 110, 110);
     font-family: 'Montserrat', sans-serif!important;
 }
 
@@ -75,20 +117,37 @@ body{
 /* **************************************************************** */
 /* **************************************************************** */
 
+.imgsection{
+    width: 444px!important;
+    height: 444px!important;
+}
+
+
 
 /* @import url('https://fonts.googleapis.com/css?family=Expletus+Sans&display=swap'); */
 /* **************************************************************** */
 /* **************************************************************** */
 .box2-image{
-    background-color: rgb(221, 219, 219)!important;
+    background-color: rgb(0, 0, 0)!important; 
 }
+
+.box2-image h2{
+    color:rgb(255, 255, 255);
+    font-size: 400%!important;
+    /* font-family: 'Montserrat', sans-serif!important; */
+    }
+
+    
+
+
+
 
 .box2{
   display: flex;
   min-width: 600px;
   max-width: 900px;
   height: 400px;
-  margin: 4rem auto; 
+  margin: 1rem auto; 
 }
 /**Parametrage des img2**/
 .image2{
@@ -142,12 +201,21 @@ body{
     opacity: 1;
 }
 /* **************************************************************** */
+
+
 /* **************************************************************** */
 
 
+footer{
+    background-color: black!important;
+}
 
-
-
+.navbar .mbr-iconfont {
+	font-size: 2rem !important;
+	color: #ffffff!important;
+	margin: 1rem;
+	padding-right: 1rem;
+}
 
 
 
@@ -205,8 +273,8 @@ body{
     }
 
     #imgbox1{
-      margin-left:52%!important;
-     margin-top: 63%!important;
+      margin-left:60%!important;
+     /* margin-top: 63%!important; */
        height: 10em!important;
        width: 8em!important;
     }
@@ -218,22 +286,28 @@ body{
 
 
 /* **************************************************************** */
+
+.imgsection{
+    width: 350px!important;
+    height: 300px!important;
+    /* margin-left: 20%;
+    margin-top: 5%; */
+}
 /* **************************************************************** */
 .box2-image{
-    background-color: rgb(243, 243, 243)!important;
-}
+    background-color:rgba(90, 72, 72, 0.267)!important; }
 
 .box2{
   display: flex;
-  min-width: 300px;
-  max-width: 600px;
-  height: 280px;
+  min-width: 280px;
+  max-width: 700px;
+  height: 270px;
   margin: 1rem auto; 
 }
 /**Parametrage des img2**/
 .image2{
-   min-width: 40px;
-   margin: 4px;
+   min-width: 6px;
+   margin: 3px;
    cursor: pointer; /*cureur pointeur pour montrer que l'élément est cliquable avec la souris*/
    /**pour faire un effet de smooth*/
    transition: .7s cubic-bezier(0.05, 0.61, 0.41, 0.95);
@@ -244,7 +318,7 @@ body{
 /**zoom de l image2 avec la classe active2**/
 .image2.active2{
     flex-grow: 100;
-    max-width: 700px; /**pour pas que l'image2 s'élargisse à l infini**/
+    max-width: 990px; /**pour pas que l'image2 s'élargisse à l infini**/
     margin:0px;
     border-radius: 5px;
     background-size: auto 100%;
@@ -264,7 +338,7 @@ body{
     opacity: 0;
     transition: all .4s;
     background: linear-gradient(354deg, black 0%, 
-    transparent 72%);
+    transparent 10%);
     color: white;
     overflow: hidden;
 }
@@ -282,6 +356,17 @@ body{
     opacity: 1;
 }
 
+
+.mbr-iconfont {
+	font-size: 1rem !important;
+	color: #250101!important;
+	margin: 1rem;
+	padding-right: 1rem;
+}
+
+.fa, .fas {
+	font-weight: 900!important;
+}
 
 
 }
@@ -344,4 +429,9 @@ h2 {
 }
 .display-6 {
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 1re}
+    font-size: 1rem}
+
+
+
+
+    
