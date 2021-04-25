@@ -6,7 +6,7 @@
 
 .redline{
     background-color: brown;
-    height: 5px;
+    height: 3px;
 }
 
 
@@ -219,7 +219,7 @@ footer{
 
 
 
-/* SECTION GALLERI IMAGES MES SKILSS */
+/* SECTION GALLERI */
 .portfolio .img-rounded {
     width: 25%;
     margin: 20px 15px;
@@ -384,13 +384,13 @@ footer{
 
 /* SECTION GALLERI IMAGES MES SKILSS */
 .portfolio .img-rounded {
-    width: 38%;
+    width: 50%;
     margin: 15px 10px;
 }
 
 .portfolio .img-rounded:hover {
     transform: scale(1.20);
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     transition: all 1s ease-in-out;
     opacity:0.7;
 }   
