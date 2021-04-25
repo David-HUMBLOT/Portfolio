@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/animate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <title>Portfolio</title>
+
+
   <!-- google fonts -->
   <!-- Montserra -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,6 +28,7 @@
 
   <!------ Include the above in your HEAD tag ---------->
 
+
 </head>
 
 <body>
@@ -34,7 +39,7 @@
       <div class="col redline"></div>
       <div class="container">
 
-        <a href="#home" class="mbr-iconfont fas fa-crown fa mx-5"></a>
+        <a href="#home" class=" bounceIn mbr-iconfont fas fa-crown fa mx-5"></a>
 
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +75,7 @@
   <section class="">
     <div class="container div1 mt-5 pt-5">
       <div class="text-center">
-        <h1 id="home" class="text-white">PORTFOLIO</h1>
+        <h1 id="home" class="demotext2 bounceIn ">PORTFOLIO</h1>
 
       </div>
 
@@ -84,13 +89,182 @@
       </div>
     </div>
     <div class="text-center ">
-      <h2 class="text-white">Développeur web junior</h2>
-      <h3 class="text-white">HUMBLOT David</h3>
+      <h2 class="text-white bounceIn">Développeur web junior</h2>
+      <h3 class="text-white bounceIn">HUMBLOT David</h3>
 
     </div>
 
-    <div class="text-center  mt-5"> <a href="./img/documents/CV.pdf" download class="btn btn-primary ">Télécharger mon
+    <div class="text-center bounceIn  mt-5"> <a href="./img/documents/CV.pdf" download class="btn btn-primary ">Télécharger mon
         CV</a></div>
+
+
+     
+
+
+
+    <!-- MES COMPETENCES -->
+    <div id="competence" class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+    <!-- <p  class=" demotext  pt-2 text-center "><img id="cat" src="img/tenor.gif" alt=""> Mes compétences</p> -->
+    <p  class=" demotext  pt-2 mb-5 text-center "> Mes compétences</p>
+
+    <section class="container col-11 box-competence pt-3 pb-4 ">
+      <!-- ******************************************* -->
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="ml-3 ">
+            <h3>Languages</h3>
+            <p>J'utilise actuellement ...</p>
+          </div>
+
+
+          <div class="mb-3">
+            <div class="row ml-1 skillbar">
+              <div class="sb-name text-center">HTML</div>
+              <div class=" col-8 ">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="sb-level">12 %</div>
+            </div>
+
+            <div class="row ml-1 skillbar">
+              <div class="sb-name text-center">CSS</div>
+              <div class=" col-8 ">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="sb-level">12 %</div>
+            </div>
+
+            <div class="row ml-1 skillbar">
+              <div class="sb-name text-center">JAVASCRIPT</div>
+              <div class=" col-8 ">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="sb-level">12 %</div>
+            </div>
+
+            <div class="row ml-1 skillbar">
+              <div class="sb-name text-center">jQUERY</div>
+              <div class=" col-8 ">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="sb-level">12 %</div>
+            </div>
+
+            <div class="row ml-1 skillbar">
+              <div class="sb-name text-center">PHP</div>
+              <div class=" col-8 ">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="sb-level">12 %</div>
+            </div>
+
+ 
+
+          </div>
+
+
+
+
+
+        </div>
+        <!-- ******************************************* -->
+
+        <div class="col-md-6">
+          <h3>Mon environnement</h3>
+
+          <div class="my-env border border-dark" >
+            <div class="my-env-title" ><img src="/assets/img/skills/git.png"
+                class="img-circle"> Trello</div>
+            <div class="my-env-desc " >
+              <ul >
+                <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
+                <li>GitHub pour mes projets Open source.</li>
+              </ul>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+
+          <div class="my-env border border-dark" >
+            <div class="my-env-title" ><img src="/assets/img/skills/git.png"
+                class="img-circle"> Git</div>
+            <div class="my-env-desc " >
+              <ul >
+                <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
+                <li>GitHub pour mes projets Open source.</li>
+              </ul>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+        
+
+
+        
+          <div class="my-env border border-dark" >
+          <div class="my-env-title" ><img src="/assets/img/skills/git.png"
+              class="img-circle"> Visual code studio</div>
+          <div class="my-env-desc">
+            <ul>
+              <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
+              <li>GitHub pour mes projets Open source.</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+       
+        <div class="my-env border border-dark" >
+          <div class="my-env-title" ><img src="/assets/img/skills/git.png"
+              class="img-circle"> Lucid chart</div>
+          <div class="my-env-desc">
+            <ul>
+              <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
+              <li>GitHub pour mes projets Open source.</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <div class="my-env border border-dark" >  
+          <div class="my-env-title" ><img src="/assets/img/skills/git.png"
+              class="img-circle"> Mysql</div>
+          <div class="my-env-desc">
+            <ul>
+              <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
+              <li>GitHub pour mes projets Open source.</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+      </div>
+
+    </div>
+        <!-- ******************************************* -->
+      </div>
+
+
+
+    </section>
+    <!-- ******************************************* -->
+
 
 
 
@@ -121,75 +295,7 @@
 
     </section>
 
-
-
-    <!-- MES COMPETENCES -->
-    <div id="competence" class="col-10 offset-1 d-flex text-center my-5 redline"></div>
-
-
-    <section class="container box-competence ">
-      <!-- ******************************************* -->
-      <h2 class="   text-center"><img id="cat" src="img/cat4.gif" alt=""> Mes compétences</h2>
-
-      <div  class="row">
-
-      
-
-        
-
-        
-        <div class="col-md-6">
-          <div class="ml-3 ">
-            <h3>Languages</h3>
-            <p >J'utilise actuellement ...</p>
-          </div>
-
-
-
-          <div class="row ml-1 skillbar">
-            <div class="sb-name text-center">JAVASCRIPT</div>
-            <div class=" col-8 ">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              
-            </div>
-       
-            <div class="sb-level">12 %</div>
-          </div>
-
-
-      
-
-
-
-        <div class="skillbar"></div>
-        <div class="skillbar"></div>
-        <div class="skillbar"></div>
-        <div class="skillbar"></div>
-        <div class="skillbar"></div>
-
-      </div>
-        <!-- ******************************************* -->
-
-        <div class="col-md-6">
-          <h3>Mon environnement</h3>
-
-
-        </div>
-
-        <!-- ******************************************* -->
-      </div>
-
-
-
-    </section>
-    <!-- ******************************************* -->
-
-
-
-
-
+    <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
 
 
 
@@ -200,10 +306,10 @@
 
 
     <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
-
-    <h2 class="  pt-2 text-center text-white"><img id="cat" src="img/tenor.gif" alt=""> Mon Parcours </h2>
-
-
+   
+    <p  class=" demotext  pt-2 mb-5 text-center "> Mon parcours <img id="cat" src="img/tenor.gif" alt=""></p>
+    
+ 
 
 
 
@@ -253,7 +359,7 @@
   </section>
 
   <section>
-    <div class="container">
+    <div class="container ">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
@@ -342,7 +448,7 @@
   </section>
 
 
-  <h2 class="  pt-2 text-center text-white"><img id="cat" src="" alt=""> A propos</h2>
+  <h2 class="pt-2 text-center text-white"><img id="cat" src="" alt=""> A propos</h2>
 
 
 
@@ -376,6 +482,18 @@
 
 
 
+  <div>
+    <div class="fade text-white">Fade In 01</div>
+    <div class="fade">Fade In 02</div>
+    <div class="fade">Fade In 03</div>
+    <div class="fade">Fade In 04</div>
+    <div class="fade">Fade In 05</div>
+    <div class="fade">Fade In 06</div>
+    <div class="fade">Fade In 07</div>
+    <div class="fade">Fade In 08</div>
+    <div class="fade">Fade In 09</div>
+    <div class="fade">Fade In 10</div>
+  </div>
 
 
 
@@ -438,6 +556,8 @@
 
 
   <!-- JAVA SCRIPT -->
+
+
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
   <!-- jQuery and Bootstrap Bundle (includes Popper) -->

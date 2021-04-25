@@ -246,7 +246,7 @@ footer{
 .skillbar .sb-name {
     float: left;
     background-color: #f5f5f5;
-    color: #808caa;
+    color: brown;
     font-weight: 700;
     min-width: 20%;
     height: 100%;
@@ -272,7 +272,7 @@ footer{
     line-height: 28px;
 }
 .skillbar .sb-name{
-    color:brown
+    color:brown;
     margin-left: 0.9rem;
 }
 .skillbar  .progress {
@@ -280,6 +280,234 @@ footer{
     background-color: #d6e9f7;
     /* width: 95%!important; */
 }
+
+
+.my-env-title {
+    float: left;
+    width: 24%;
+    padding: 6px 4px;
+    font-weight: 700;
+    color: #999eaa;
+}
+
+
+.demotext {
+    font-size: 2.8rem!important;
+    color: #9a98a5;
+    background: #000000;
+    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c70909 0px 0px 20px, #c20000 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #07024d;
+    background: #000000;
+    }
+
+    .demotext2 {
+        color: #a59898;
+        background: #000000;
+        text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #0003b9 0px 0px 20px, #0d00c2 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+        color: #000000;
+        background: #000000;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMATION */
+/* https://www.theappguruz.com/tag-tools/web/CSSAnimations/ */
+
+
+
+        .fadeInRight {
+            -webkit-animation-name: fadeInRight;
+            animation-name: fadeInRight;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+            @-webkit-keyframes fadeInRight {
+            0% {
+            opacity: 0;
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            }
+            100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+            }
+            }
+            @keyframes fadeInRight {
+            0% {
+            opacity: 0;
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            }
+            100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+            }
+            } 
+
+
+
+
+
+
+            @-webkit-keyframes fadeInRight {
+                0% {
+                opacity: 0;
+                -webkit-transform: translate3d(100%, 0, 0);
+                transform: translate3d(100%, 0, 0);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+                }
+                }
+                @keyframes fadeInRight {
+                0% {
+                opacity: 0;
+                -webkit-transform: translate3d(100%, 0, 0);
+                transform: translate3d(100%, 0, 0);
+                }
+                100% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+                }
+                } 
+
+
+
+
+
+
+
+
+
+                .bounceIn {
+                    -webkit-animation-name: bounceIn;
+                    animation-name: bounceIn;
+                    -webkit-animation-duration: .75s;
+                    animation-duration: .75s;
+                    -webkit-animation-duration: 1s;
+                    animation-duration: 1s;
+                    -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+                    }
+                    @-webkit-keyframes bounceIn {
+                    0%, 20%, 40%, 60%, 80%, 100% {
+                    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                    }
+                    0% {
+                    opacity: 0;
+                    -webkit-transform: scale3d(.3, .3, .3);
+                    transform: scale3d(.3, .3, .3);
+                    }
+                    20% {
+                    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                    transform: scale3d(1.1, 1.1, 1.1);
+                    }
+                    40% {
+                    -webkit-transform: scale3d(.9, .9, .9);
+                    transform: scale3d(.9, .9, .9);
+                    }
+                    60% {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+                    transform: scale3d(1.03, 1.03, 1.03);
+                    }
+                    80% {
+                    -webkit-transform: scale3d(.97, .97, .97);
+                    transform: scale3d(.97, .97, .97);
+                    }
+                    100% {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                    }
+                    }
+                    @keyframes bounceIn {
+                    0%, 20%, 40%, 60%, 80%, 100% {
+                    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+                    }
+                    0% {
+                    opacity: 0;
+                    -webkit-transform: scale3d(.3, .3, .3);
+                    transform: scale3d(.3, .3, .3);
+                    }
+                    20% {
+                    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+                    transform: scale3d(1.1, 1.1, 1.1);
+                    }
+                    40% {
+                    -webkit-transform: scale3d(.9, .9, .9);
+                    transform: scale3d(.9, .9, .9);
+                    }
+                    60% {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+                    transform: scale3d(1.03, 1.03, 1.03);
+                    }
+                    80% {
+                    -webkit-transform: scale3d(.97, .97, .97);
+                    transform: scale3d(.97, .97, .97);
+                    }
+                    100% {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                    }}
+
+
+                    .fade {
+                        background-color: brown;
+                        margin: 50px;
+                        padding: 50px;
+                        background-color: lightgreen;
+                        opacity: 1;
+                      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
