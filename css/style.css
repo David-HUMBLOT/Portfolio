@@ -1,5 +1,7 @@
 
+    /* font-family: 'Monoton', cursive;
 
+    font-family: 'Special Elite', cursive; */
 
 
 
@@ -304,7 +306,29 @@ footer{
 }
 
 
+#attache{
+    
+    height: 100px;
+    float: right;
+    position: relative;
+    bottom: 45px;
+    right: 170px;
+    z-index: 5;
+  
+    /* font-size: small; */
+}
 
+#attache2{
+    
+    height: 100px;
+  
+    position: relative;
+    top: 45px;
+    left: 180px;
+    z-index: 5;
+  
+    /* font-size: small; */
+}
 
 
 .demotext {
@@ -314,6 +338,9 @@ footer{
     text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c70909 0px 0px 20px, #c20000 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     color: #07024d;
     background: #000000;
+        font-family: 'Monoton', cursive;
+
+    font-family: 'Special Elite', cursive;
     }
 
     .demotext2 {
@@ -668,27 +695,17 @@ footer{
 
 
 
-
-
-
-
-
-
-#test{
-font-size: 2.5rem !important;
+#attache{
+    width: 80px;
+    position: relative;
+    bottom: 35px;
+    right: 60px;
+    z-index: 5;
+    /* font-size: small; */
 }
-
-
-
-
 
 }
 /* Fin paramètre média queries */
-
-
-
-
-
 
 
 /* CSS SNIPET SKILL */
@@ -747,5 +764,135 @@ h2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* QUERIES */
+
+    /* PETIT ECRAN SMARTPHONE */
+    @media all and (max-width: 320px){
+        #attache{
+            width: 0px;
+           
+            position: relative;
+            bottom: 0px;
+            right: 0px;
+            z-index: 5;
+          
+            /* font-size: small; */
+        }
+
+        #attache2{
+    
+            height: 0px;
+          
+            position: relative;
+            top: 0px;
+            left: 0px;
+            z-index: 5;
+          
+            /* font-size: small; */
+        }
+
+        .demotext {
+            font-size: 1.8rem!important;
+            color: #9a98a5;
+            background: #000000;
+            text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c70909 0px 0px 20px, #c20000 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+            color: #07024d;
+            background: #000000;
+                font-family: 'Monoton', cursive;
+        
+            font-family: 'Special Elite', cursive;
+            }
+
+
+            .box-competence h3{
+                font-size: 1.4rem!important;
+            }
+    }
+
+
+    /* MOYEN ECRAN SMARTPHONE*/
+    @media all and (max-width: 990px ){
+        #attache2{
+    
+            height: 60px;
+          
+            position: relative;
+            top: 35px;
+            left: 110px;
+            z-index: 5;
+          
+            /* font-size: small; */
+        }
+
+    }
+
+    @media all and (max-width: 400px ){
+        #attache2{
+    
+            height: 60px;
+          
+            position: relative;
+            top: 35px;
+            left: 40px;
+            z-index: 5;
+          
+            /* font-size: small; */
+        }
+
+    }
+
+    /* ECRAN TABLETTE */
+
+    /* ECRAN PETIT PC */
+
+    /* ECRAN CLASSIQUE */
+
+    /* GRAND ECRAN */
 
     
