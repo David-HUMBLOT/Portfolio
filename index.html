@@ -26,7 +26,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-  <!------ Include the above in your HEAD tag ---------->
+  <!-- AOS ANIMATE -->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
@@ -54,7 +56,7 @@
               <a class="nav-link text-white  mx-5" href="#parcours">Mon parcours</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white  mx-5" href="#a-propos">A propos</a>
+              <a class="nav-link text-white  mx-5" href="#realisation">Mes réalisations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white mx-5" href="#contact">Me contacter</a>
@@ -67,16 +69,10 @@
   </section>
   <!-- ****************************************** -->
 
-
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-
   <section class="">
     <div class="container div1 mt-5 pt-5">
       <div class="text-center">
         <h1 id="home" class="demotext2 bounceIn ">PORTFOLIO</h1>
-
       </div>
 
       <div class="d-flex justify-content-center h-100">
@@ -88,190 +84,420 @@
         </div>
       </div>
     </div>
-    <div class="text-center ">
+    <div class="text-center">
       <h2 class="text-white bounceIn">Développeur web junior</h2>
       <h3 class="text-white bounceIn">HUMBLOT David</h3>
-
+    </div>
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="text-center mt-5"> <a href="./img/documents/CV.pdf" download class="btn btn-primary ">Télécharger
+          mon
+          CV</a>
+      </div>
     </div>
 
-    <div class="text-center bounceIn  mt-5"> <a href="./img/documents/CV.pdf" download class="btn btn-primary ">Télécharger mon
-        CV</a></div>
 
-
-     
-
-
+    <div id="competence"></div>
 
     <!-- MES COMPETENCES -->
-    <div id="competence" class="col-10 offset-1 d-flex text-center my-5 redline"></div>
-    <!-- <p  class=" demotext  pt-2 text-center "><img id="cat" src="img/tenor.gif" alt=""> Mes compétences</p> -->
-    <p  class=" demotext  pt-2 mb-5 text-center "> Mes compétences</p>
+    <!-- ********************************** -->
+    <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+    <!-- ********************************** -->
+    <div data-aos="zoom-in">
+      <p class=" demotext  pt-2 mb-5 text-center "> Mes compétences</p>
+    </div>
+    <div data-aos="zoom-in">
+    </div>
+    <div data-aos="fade-up" data-aos-duration="3900">
 
-    <section class="container col-11 box-competence pt-3 pb-4 ">
-      <!-- ******************************************* -->
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="ml-3 ">
-            <h3>Languages</h3>
-            <p>J'utilise actuellement ...</p>
+      <section class="container col-10 box-competence pt-3 pb-4 ">
+        <div data-aos="fade-up" data-aos-duration="3900">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="ml-3 ">
+                <h3>Languages</h3>
+                <p>J'utilise actuellement ...</p>
+              </div>
+
+              <div class="mb-3 mt-5 ">
+                <div class="row ml-1 mt-5 skillbar">
+                  <img src="img/img-competence/html.png" class="img-competence">
+                  <div class="sb-name text-center">HTML</div>
+                  <div class=" col-6 ">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="sb-level">12 %</div>
+                </div>
+
+                <div class="row ml-1 skillbar">
+                  <img src="img/img-competence/css.png" class="img-competence">
+                  <div class="sb-name text-center">CSS</div>
+                  <div class=" col-6 ">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="sb-level">12 %</div>
+                </div>
+
+                <div class="row ml-1 skillbar">
+                  <img src="img/img-competence/js.png" class="img-competence">
+                  <div class="sb-name text-center">JavaScript</div>
+                  <div class=" col-6 ">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="sb-level">12 %</div>
+                </div>
+
+                <div class="row ml-1 skillbar">
+                  <img src="img/img-competence/php.png" class="img-competence">
+                  <div class="sb-name text-center">PHP</div>
+                  <div class=" col-6 ">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="sb-level">12 %</div>
+                </div>
+
+                <div class="row ml-1 skillbar">
+                  <img src="img/img-competence/laravel.png" class="img-competence">
+                  <div class="sb-name text-center">Laravel</div>
+                  <div class=" col-6 ">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="sb-level">12 %</div>
+                </div>
+
+                <div class="row ml-1 skillbar">
+                  <img src="img/img-competence/vusjs.png" class="img-competence">
+                  <div class="sb-name text-center">VueJS</div>
+                  <div class=" col-6 ">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
+                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="sb-level">12 %</div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="3900">
+                  <div class="mt-5 text-center">
+                    <img src="img/codeur-homme.png" class="img-competence-homme" alt="" srcset="">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- ******************************************* -->
+            <div class="col-md-5">
+              <h3>Mon environnement</h3>
+              <div class="my-env ">
+                <div class="col">
+                  <div class="my-env-title my-env-desc">
+                    <img src="img/img-competence/heroku.png" class="img-environement">
+                    Heroku
+                  </div>
+                </div>
+                <ul>
+                  <li>Déploiement de site en ligne</li>
+                  <li>Php artisan/composer</li>
+                  <li>Bdd en ligne via My easyPhp</li>
+                </ul>
+              </div>
+
+              <div class=" my-env  ">
+                <div class="col">
+                  <div class="my-env-title my-env-desc">
+                    <img src="img/img-competence/git.png" class="img-environement"> Git
+                  </div>
+                </div>
+                <div class="">
+                  <ul>
+                    <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
+                    <li>GitHub pour mes projets Open source.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class=" my-env  ">
+                <div class="col">
+                  <div class="my-env-title my-env-desc">
+                    <img src="img/img-competence/vscode.png" class="img-environement">
+                    VS code
+                  </div>
+                </div>
+                <div>
+                  <ul>
+                    <li>Editeur de code</li>
+                    <li>Traveaux en groupe sur une architecture. Versionning et factorisation.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="my-env ">
+                <div class="col">
+                  <div class="my-env-title my-env-desc">
+                    <img src="img/img-competence/figma.png" class="img-environement">
+                    Figma
+                  </div>
+                </div>
+                <ul>
+                  <li>Conception de maquette selon cahier des charges</li>
+                  <li>Version bureau, tablette, smartphone</li>
+                  <li>Support d'intégration web (front)</li>
+                </ul>
+              </div>
+
+              <div class="my-env ">
+                <div class="col">
+                  <div class="my-env-title my-env-desc">
+                    <img src="img/img-competence/LucidChart.png" class="img-environement">
+                    Lucid chart
+                  </div>
+                </div>
+                <ul>
+                  <li>MCD-Modélisation de base de donnée</li>
+                  <li>Système relationel</li>
+                  <li>En local ou en ligne</li>
+                </ul>
+              </div>
+
+              <div class="my-env ">
+                <div class="col">
+                  <div class="my-env-title my-env-desc">
+                    <img src="img/img-competence/msql2.png" class="img-environement">
+                    Mysql
+                  </div>
+                </div>
+                <ul>
+                  <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
+                  <li>GitHub pour mes projets Open source.</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row col-12">
+          <div data-aos="fade-up" data-aos-duration="3900">
+            <h3 class="mt-3 mx-3">Savoir faire</h3>
+            <div class="m-3">
+              <p>Je sais réalisé un CRUD avec le lanquage php. Avec un système de connexion. Avec des formulaires de
+                renseigement ou de connection dont chaque champs de saisie est sécurisé (coté php et coté html).</p>
+              <p>Je possède également une certification</p>
+            </div>
+          </div>
+        </div>
+
+        <div  class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+
+        <!-- MES SKILLS ET PROJETS -->
+        <section class="container-fluid col-12 portfolio d-flex justify-content-around mt-4">
+          <div class=" row ">
+            <div class=" text-center ">
+              <a href="#">
+                <img class="img-rounded" src="img/img-autonomy.jpg" alt="">
+              </a>
+              <a href="#">
+                <img class="img-rounded" src="img/img-equipe.jpg" alt="">
+              </a>
+              <a href="#">
+                <img class="img-rounded" src="img/img-curiosité.webp" alt="">
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- ******************************************* -->
+        <div id="a-propos" class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+        <!-- ******************************************* -->
+
+        <div data-aos="fade-up" data-aos-duration="3900">
+          <div class="row col-12">
+            <h3 class="mt-3 mx-3">Savoir être</h3>
+            <div class="m-3">
+              <p>Je sais réalisé un CRUD avec le lanquage php. Avec un système de connexion. Avec des formulaires de
+                renseigement ou de connection dont chaque champs de saisie est sécurisé (coté php et coté html).</p>
+              <p>Je possède également une certification</p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3900">
+          <div class="text-center"><img style="height: 15rem;"
+              src="img/kisspng-mockup-perspective-responsive-web-design-isometric-design-is-not-just-what-it-looks-like-and-feels-li-5b3bf8eb703ac4.2232228615306570034597.png "
+              alt="" srcset=""></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- <div class="col-10 offset-1 d-flex text-center my-5 redline"></div> -->
+    <!-- MES SKILLS ET PROJETS -->
+    <!-- <section class="container-fluid col-12 portfolio d-flex justify-content-around mt-4"> -->
+    <!-- <div class=" row ">
+        <div class=" text-center ">
+          <a href="#">
+            <img class="img-rounded" src="img/img-autonomy.jpg" alt="">
+          </a>
+          <a href="#">
+            <img class="img-rounded" src="img/img-equipe.jpg" alt="">
+          </a>
+          <a href="#">
+            <img class="img-rounded" src="img/img-curiosité.webp" alt="">
+          </a>
+        </div>
+      </div> -->
+    <!-- </section>
+    <div class="col-10 offset-1 d-flex text-center my-5 redline"></div> -->
+
+    <div id="parcours"></div>
+    <!-- ****************************************** -->
+    <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+    <!-- ****************************************** -->
+
+    <p class=" demotext  pt-2 mb-5 text-center "> Mon parcours <img id="cat" src="img/tenor.gif" alt=""></p>
+
+    <!-- <div class="redline my-5 "></div> -->
+    <!-- <div class="col-10 offset-1 d-flex text-center my-5 redline"></div> -->
+
+<div class="box-competence col-10 offset-1">
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid imgsection rounded-circle" src="img/box2/restauration.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="ico-wrap row">
+              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5 mx-5 mt-3 "><span>Loisir et
+                  passion</span></h2>
+            </div>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia
+              odio veniam sit iste
+              esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum
+              molestiae
+              adipisci, beatae obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <img class="img-fluid imgsection rounded-circle" src="img/box2/restauration.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="ico-wrap row">
+              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5 mx-5 mt-3 "><span>Loisir et
+                  passion</span></h2>
+            </div>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia
+              odio veniam sit iste
+              esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum
+              molestiae
+              adipisci, beatae obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid imgsection rounded-circle" src="img/box2/restauration.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="ico-wrap row">
+              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5 mx-5 mt-3 "><span>Loisir et
+                  passion</span></h2>
+            </div>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia
+              odio veniam sit iste
+              esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum
+              molestiae
+              adipisci, beatae obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    
+    <section class="container">
+      <!-- image with jquery -->
+      <div class="  box2-image">
+        <div class="box2 ">
+          <div class="image2 active2 " style="background: url('img/box2/université.jpg') center/cover;">
+            <div class="text-container2">
+              <div class="text2">
+                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                <p>Lorem ipsum dolor sit amet consecte</p>
+              </div>
+            </div>
           </div>
 
-
-          <div class="mb-3">
-            <div class="row ml-1 skillbar">
-              <div class="sb-name text-center">HTML</div>
-              <div class=" col-8 ">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
-                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+          <div class="image2 " style="background: url('img/box2/restauration.jpg') center/cover;">
+            <div class="text-container2">
+              <div class="text2">
+                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                <p>Lorem ipsum dolor sit amet consecte</p>
               </div>
-              <div class="sb-level">12 %</div>
             </div>
-
-            <div class="row ml-1 skillbar">
-              <div class="sb-name text-center">CSS</div>
-              <div class=" col-8 ">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
-                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+          </div>
+          <div class="image2 " style="background: url('img/box2/Asite_couv21.jpg') center/cover;">
+            <div class="text-container2">
+              <div class="text2">
+                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                <p>Lorem ipsum dolor sit amet consecte</p>
               </div>
-              <div class="sb-level">12 %</div>
             </div>
-
-            <div class="row ml-1 skillbar">
-              <div class="sb-name text-center">JAVASCRIPT</div>
-              <div class=" col-8 ">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
-                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+          </div>
+          <div class="image2 " style="background: url('img/box2/Asite_couv21.jpg') center/cover;">
+            <div class="text-container2">
+              <div class="text2">
+                <h3>Lorem ipsum dolor sit amet consectetur </h3>
+                <p>Lorem ipsum dolor sit amet consecte</p>
               </div>
-              <div class="sb-level">12 %</div>
             </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
 
-            <div class="row ml-1 skillbar">
-              <div class="sb-name text-center">jQUERY</div>
-              <div class=" col-8 ">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
-                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="sb-level">12 %</div>
-            </div>
-
-            <div class="row ml-1 skillbar">
-              <div class="sb-name text-center">PHP</div>
-              <div class=" col-8 ">
-                <div class="progress">
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 28%"
-                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-              <div class="sb-level">12 %</div>
-            </div>
 
  
 
-          </div>
 
-
-
-
-
-        </div>
-        <!-- ******************************************* -->
-
-        <div class="col-md-6">
-          <h3>Mon environnement</h3>
-
-          <div class="my-env border border-dark" >
-            <div class="my-env-title" ><img src="/assets/img/skills/git.png"
-                class="img-circle"> Trello</div>
-            <div class="my-env-desc " >
-              <ul >
-                <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
-                <li>GitHub pour mes projets Open source.</li>
-              </ul>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-
-
-          <div class="my-env border border-dark" >
-            <div class="my-env-title" ><img src="/assets/img/skills/git.png"
-                class="img-circle"> Git</div>
-            <div class="my-env-desc " >
-              <ul >
-                <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
-                <li>GitHub pour mes projets Open source.</li>
-              </ul>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-
-        
-
-
-        
-          <div class="my-env border border-dark" >
-          <div class="my-env-title" ><img src="/assets/img/skills/git.png"
-              class="img-circle"> Visual code studio</div>
-          <div class="my-env-desc">
-            <ul>
-              <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
-              <li>GitHub pour mes projets Open source.</li>
-            </ul>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-
-       
-        <div class="my-env border border-dark" >
-          <div class="my-env-title" ><img src="/assets/img/skills/git.png"
-              class="img-circle"> Lucid chart</div>
-          <div class="my-env-desc">
-            <ul>
-              <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
-              <li>GitHub pour mes projets Open source.</li>
-            </ul>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-
-        <div class="my-env border border-dark" >  
-          <div class="my-env-title" ><img src="/assets/img/skills/git.png"
-              class="img-circle"> Mysql</div>
-          <div class="my-env-desc">
-            <ul>
-              <li>Tous mes projets sont versionnés (semver) avec GIT.</li>
-              <li>GitHub pour mes projets Open source.</li>
-            </ul>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-
-      </div>
-
-    </div>
-        <!-- ******************************************* -->
-      </div>
-
-
-
-    </section>
-    <!-- ******************************************* -->
-
-
-
-
+     <!-- ME CONTACTER -->
+    <!-- ********************************** -->
+    <div id="realisation"></div>
     <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+    <!-- ********************************** -->
+    <div data-aos="zoom-in">
+      <p class=" demotext  pt-2 mb-5 text-center "> Mes réalisations</p>
+    </div>
+    <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+    <!-- ************************************* -->
 
-
-    <!-- MES SKILLS ET PROJETS -->
     <section class="container-fluid col-12 portfolio d-flex justify-content-around mt-4">
       <!-- <div class=" row col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
       <div class=" row ">
@@ -279,295 +505,47 @@
           <a href="#">
             <img class="img-rounded" src="img/img-autonomy.jpg" alt="">
           </a>
-
           <a href="#">
             <img class="img-rounded" src="img/img-equipe.jpg" alt="">
           </a>
-
-
           <a href="#">
             <img class="img-rounded" src="img/img-curiosité.webp" alt="">
           </a>
         </div>
       </div>
-
-
-
     </section>
 
+   <!-- ME CONTACTER -->
+    <!-- ********************************** -->
+    <div id="contact"></div>
     <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
-
-
-
-
-
-
-    <div id="parcours"></div>
-
-
-    <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
-   
-    <p  class=" demotext  pt-2 mb-5 text-center "> Mon parcours <img id="cat" src="img/tenor.gif" alt=""></p>
-    
- 
-
-
-
-
-
-
-
-    <!-- <div class="redline my-5 "></div> -->
-  </section>
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-
-
-
-  <!-- <div class="col-10 offset-1 d-flex text-center my-5 redline"></div> -->
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-  <!-- ****************************************** -->
-
-  <section>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 order-lg-2">
-          <div class="p-5">
-            <img class="img-fluid imgsection rounded-circle" src="img/box2/restauration.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
-            <div class="ico-wrap row">
-              <div class="mbr-iconfont fas fa-icons fa text-white row mx-5">
-                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5 mx-5 mt-3 "><span>Loisir et
-                    passion</span></h2>
-              </div>
-              <p class="text-white  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia
-                odio veniam sit iste
-                esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae
-                adipisci, beatae obcaecati.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container ">
-      <div class="row align-items-center">
-        <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
-            <img class="img-fluid imgsection rounded-circle" src="img/box2/restauration.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
-            <div class="ico-wrap row">
-              <div class="mbr-iconfont fas fa-icons fa text-white row mx-5">
-                <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5 mx-5 mt-3 "><span>Loisir et
-                    passion</span></h2>
-              </div>
-              <p class="text-white  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia
-                odio veniam sit iste
-                esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae
-                adipisci, beatae obcaecati.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="container">
-    <!-- image with jquery -->
-    <section class="  box2-image">
-      <div class="box2 ">
-
-        <div class="image2 active2 " style="background: url('img/box2/université.jpg') center/cover;">
-          <div class="text-container2">
-            <div class="text2">
-              <h3>Lorem ipsum dolor sit amet consectetur </h3>
-              <p>Lorem ipsum dolor sit amet consecte</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="image2 " style="background: url('img/box2/restauration.jpg') center/cover;">
-          <div class="text-container2">
-            <div class="text2">
-              <h3>Lorem ipsum dolor sit amet consectetur </h3>
-              <p>Lorem ipsum dolor sit amet consecte</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="image2 " style="background: url('img/box2/Asite_couv21.jpg') center/cover;">
-          <div class="text-container2">
-            <div class="text2">
-              <h3>Lorem ipsum dolor sit amet consectetur </h3>
-              <p>Lorem ipsum dolor sit amet consecte</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="image2 " style="background: url('img/box2/Asite_couv21.jpg') center/cover;">
-          <div class="text-container2">
-            <div class="text2">
-              <h3>Lorem ipsum dolor sit amet consectetur </h3>
-              <p>Lorem ipsum dolor sit amet consecte</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
-  </section>
-
-
-
-
-
-
-
-
-  <div class="text-center"><img style="height: 20rem;"
-      src="img/kisspng-mockup-perspective-responsive-web-design-isometric-design-is-not-just-what-it-looks-like-and-feels-li-5b3bf8eb703ac4.2232228615306570034597.png "
-      alt="" srcset=""></div>
-
-
-
-  <div id="a-propos" class="col-10 offset-1 d-flex text-center my-5 redline">
-
-  </div>
-  </section>
-
-
-  <h2 class="pt-2 text-center text-white"><img id="cat" src="" alt=""> A propos</h2>
-
-
-
-
-  <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
-
-  <section class="container-fluid col-12 portfolio d-flex justify-content-around mt-4">
-    <!-- <div class=" row col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
-    <div class=" row ">
-      <div class=" text-center ">
-        <a href="#">
-          <img class="img-rounded" src="img/img-autonomy.jpg" alt="">
-        </a>
-
-        <a href="#">
-          <img class="img-rounded" src="img/img-equipe.jpg" alt="">
-        </a>
-
-
-        <a href="#">
-          <img class="img-rounded" src="img/img-curiosité.webp" alt="">
-        </a>
-      </div>
+    <!-- ********************************** -->
+    <div data-aos="zoom-in">
+      <p class=" demotext  pt-2 mb-5 text-center "> Me contacter</p>
     </div>
 
-  </section>
-  <div class="col-10 offset-1 d-flex text-center my-5 redline"></div>
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white small">Copyright © Your Website 2020</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
-  <h2 id="contact" class=" pt-2 text-center text-white"><img id="cat" src="" alt="">Me contacter</h2>
-
-
-
-
-  <div>
-    <div class="fade text-white">Fade In 01</div>
-    <div class="fade">Fade In 02</div>
-    <div class="fade">Fade In 03</div>
-    <div class="fade">Fade In 04</div>
-    <div class="fade">Fade In 05</div>
-    <div class="fade">Fade In 06</div>
-    <div class="fade">Fade In 07</div>
-    <div class="fade">Fade In 08</div>
-    <div class="fade">Fade In 09</div>
-    <div class="fade">Fade In 10</div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <footer class="py-5 bg-black">
-    <div class="container">
-      <p class="m-0 text-center text-white small">Copyright © Your Website 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-
-
-
-  <!-- JAVA SCRIPT -->
-
-
-  <script src="js/jquery.js"></script>
-  <script src="js/main.js"></script>
-  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script>
-
+    <!-- JAVA SCRIPT -->
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
