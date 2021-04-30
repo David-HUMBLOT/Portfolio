@@ -52,6 +52,15 @@ h1{
     top: 5rem;
     height: 24rem;
 }
+
+.div3{
+    margin-top: 3px;
+    background-color:rgb(19, 77, 53)!important;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    top: 6rem;
+    height: 17rem;
+}
 .div1 h1{
     top:15rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
@@ -120,7 +129,7 @@ main{
    
     color:rgb(247, 247, 247);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
-    font-size: 400%!important;
+   
 }
 .box1  h2{
     color:rgb(255, 255, 255);
@@ -284,12 +293,13 @@ footer{
 
 
 .box-competence{
+    display: flex;
     position: relative;
     background-color: rgb(255, 255, 255)!important;
     border: rgb(19, 93, 35) px solid!important;
   
 
-   box-shadow: black, 25px;
+  
    z-index: 7!important;
 
     
@@ -603,6 +613,9 @@ footer{
 @media all and (max-width: 1024px)
 {
 
+
+
+
     .box1 {
         /* background-image:  url("/img/informatique.png");
         background-repeat: cover no-repeat;
@@ -610,12 +623,7 @@ footer{
         background-color:rgba(61, 44, 44, 0.267)!important; 
         height: 25em; 
     }
-    .box1 h1{
-      
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
-        font-size: 250%!important;
-    }
-    
+  
     #cat{
         width: 60px;
         height: 60px;
@@ -713,7 +721,7 @@ footer{
 
 /* SECTION GALLERI IMAGES MES SKILSS */
 .portfolio .img-rounded {
-    width: 50%;
+    width: 40%;
     margin: 15px 10px;
 }
 
@@ -741,7 +749,7 @@ footer{
 
 .card1{
     position:absolute;
-   top:6.7em;
+   top:0em;
  border-color: #000000 1px!important;
 
     border-radius: 12px!important
@@ -784,6 +792,14 @@ footer{
 .mbr-section-title3 {
     color: rgb(51, 38, 38);
 }
+
+
+h1{
+      
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
+    font-size: 350%!important;
+}
+
 h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -857,6 +873,33 @@ h2 {
 
     /* PETIT ECRAN SMARTPHONE */
     @media all and (max-width: 320px){
+
+
+
+        .div{
+            margin-top: 30px;
+            background-color:rgb(19, 77, 53)!important;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            top: 5rem;
+            height: 24rem;
+        }
+
+        
+        .div1 h1{
+            top:15rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
+            
+        }
+        
+        .card1{
+            position:relative;
+            bottom:6.7em;
+         border-color: #000000 1px!important;
+        
+            border-radius: 12px!important
+        }
+
         #attache{
             width: 0px;
            
