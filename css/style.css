@@ -1,146 +1,84 @@
 
-    /* font-family: 'Monoton', cursive;
-
-    font-family: 'Special Elite', cursive; */
-
-
-h1{
-    color: white;
-    font-size:500%!important;
-      font-family: 'Monoton', cursive;
-
-    font-family: 'Special Elite', cursive; 
-}
-
-.redline{
-    background-color: rgb(156, 132, 156);
-    height: 3px;
-}
-
-.image_outer_container{
-    /* margin-top: auto;
-    margin-bottom: auto; */
-    border-radius: 50%;
-    position: relative;
-}
-
-.image_inner_container{
-    border-radius: 50%;
-    padding: 3px;
- background: #833ab4; 
- background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4); 
- background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
-}
-.image_inner_container img{
-    height: 110px;
-    width: 110px;
-    border-radius: 50%;
-    border: 0px solid white;
-}
-
-.image_outer_container .green_icon{
-  background-color: #4cd137;
-  position: absolute;
-}
-
-
-.div{
-    margin-top: 30px;
-    background-color:rgb(19, 77, 53)!important;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    top: 5rem;
-    height: 24rem;
-}
-
-.div3{
-    margin-top: 3px;
-    background-color:rgb(19, 77, 53)!important;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    top: 6rem;
-    height: 17rem;
-}
-.div1 h1{
-    top:15rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
-    font-size: 400%!important;
-}
-
-.card1{
-    position:relative;
-    bottom:6.7em;
- border-color: #000000 1px!important;
-
-    border-radius: 12px!important
-}
-
-/*  
-font-family: 'Montserrat', sans-serif;
-*/
-
-/* 
-font-family: 'Montserrat', sans-serif;
-*/
-
 html{
-   height: 100%;
-   
+    height: 100%;
+ }
+ body{
+     background-color:rgb(212, 212, 212)!important;
+ }
+
+ /* ARCHITECTURE DESTOCK */
+ /* NARBAR */
+.navbar{background-color:rgb(42, 41, 41)!important;
 }
-body{
-    background-color:rgb(223, 215, 109)!important;
+.nav-link{color:rgb(203, 203, 235)!important;font-weight: bold!important;
 }
-
-main{
-    background-color:rgb(223, 215, 109)!important;
-}
-
-
-/* header */
-/* **************************************************************** */
-/* **************************************************************** */
-
-
-.navbar{
-    background-color:rgb(19, 77, 53)!important;
-}
-.nav-link{
-    color:white!important;
-    font-weight: bold!important;
+.container .navbar {background-color: rgba(40, 71, 47, 0.404)!important;
 }
 
+ .section0{height: 80px;}
+.section1{height: 700px;background-color: rgb(138, 135, 135);color: white;padding-top: 0px;margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("../img/img-competence/bleu\ numerique.jpg");}
 
+.sectionA{ background-color: rgb(29, 58, 73);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;}
 
-.container .navbar {
-    background-color: rgb(228, 228, 228)!important;
+.sectionB{background-color:  rgb(29, 58, 73);color: rgb(182, 169, 169); border: rgb(41, 38, 38) solid 1px;margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    /* font-size: 90%; */
+    color: rgb(223, 222, 246);
 }
 
-
-
-.box1 {
-    /* background-image:  url("/img/informatique.png");
-    background-repeat: cover no-repeat;
-    /* background-color:rgba(240, 240, 240, 0.514); */
-    background-color:rgba(90, 72, 72, 0.267)!important; 
-    
-    height: 30em; 
-}
-.box1 h1{
-   
-    color:rgb(247, 247, 247);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
-   
-}
-.box1  h2{
-    color:rgb(255, 255, 255);
-    font-size: 400%!important;
-    /* font-family: 'Montserrat', sans-serif!important; */
+.boxA{
+    border: white;height: 200px;
 }
 
-.box1   p{
-    color:rgb(187, 110, 110);
-    font-family: 'Montserrat', sans-serif!important;
+.boxB{ height: 200px;/* background-color: yellow; */
+    }
+
+.redline{background-color: rgb(64, 119, 119);height: 3px;}
+
+ /*FIN ARCHITECTURE DESTOCK */
+
+
+
+
+
+
+
+
+ /* POLICE DESTOCK */
+
+h1{color: rgb(91, 160, 133);font-size:200%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
 }
+
+.h2{color: rgb(62, 62, 158);font-size:400%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
+}
+
+.section1, h2{color: rgb(29, 29, 29);font-size:100%!important;}
+
+
+h2{color: rgb(29, 29, 29);font-size:300%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
+}
+
+ /*FIN POLICE DESTOCK */
+
+
+
+
+
+
+
+
+
+
 
 #cat{
     width: 80px;
@@ -269,7 +207,7 @@ footer{
 
 .navbar .mbr-iconfont {
 	font-size: 2rem !important;
-	color: #ffffff!important;
+	color: rgb(13, 144, 31)!important;
 	margin: 1rem;
 	padding-right: 1rem;
 }
@@ -292,18 +230,7 @@ footer{
 
 
 
-.box-competence{
-    display: flex;
-    position: relative;
-    background-color: rgb(255, 255, 255)!important;
-    border: rgb(19, 93, 35) px solid!important;
-  
 
-  
-   z-index: 7!important;
-
-    
-}
 
 
 
@@ -346,9 +273,9 @@ footer{
 }
 
 
-#attache3{
+.attache{
     
-    height: 80px;
+    height: 200px!important;
    float: right;
     position: relative;
     bottom: 40px;
@@ -372,12 +299,15 @@ footer{
 
 
 .demotext {
-    font-size: 2.8rem!important;
-    color: #9a98a5;
-    background-color:rgb(0, 0, 0)!important;
-    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c70909 0px 0px 20px, #c20000 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-    color: #07024d;
-    background-color:rgb(0, 0, 0)!important;
+ top: 900px;
+    font-size: 3.8rem!important;
+    color: #2b1277;
+   
+    text-shadow: rgb(0, 0, 0) 0px 0px 2px, rgb(0, 0, 0) 0px 0px 10px, rgb(143, 148, 168) 0px 0px 15px, #e6e6fb 0px 0px 20px, #e2e2ee 0px 0px 30px, #2a52a8 0px 0px 40px, #dfc599 0px 0px 50px, #241f2e 0px 0px 75px;
+    color: #16024d;
+    background-color:rgba(29, 58, 73, 0.466)!important;
+ 
+ 
         font-family: 'Monoton', cursive;
 
     font-family: 'Special Elite', cursive;
@@ -385,12 +315,12 @@ footer{
 
     .demotext2 {
         position: relative;
-        top:10rem;
+       
         color: #a59898;
         background: #000000;
-        text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #0003b9 0px 0px 20px, #0d00c2 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+        text-shadow: rgb(32, 30, 30) 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #0003b9 0px 0px 20px, #0d00c2 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
         color: #000000;
-        background-color:rgb(19, 77, 53)!important;
+        background-color:rgb(0, 0, 0)!important;
         }
 
 
@@ -616,13 +546,7 @@ footer{
 
 
 
-    .box1 {
-        /* background-image:  url("/img/informatique.png");
-        background-repeat: cover no-repeat;
-        /* background-color:rgba(240, 240, 240, 0.514); */
-        background-color:rgba(61, 44, 44, 0.267)!important; 
-        height: 25em; 
-    }
+
   
     #cat{
         width: 60px;
@@ -747,13 +671,6 @@ footer{
 
 
 
-.card1{
-    position:absolute;
-   top:0em;
- border-color: #000000 1px!important;
-
-    border-radius: 12px!important
-}
 
 }
 /* Fin paramètre média queries */
@@ -876,29 +793,10 @@ h2 {
 
 
 
-        .div{
-            margin-top: 30px;
-            background-color:rgb(19, 77, 53)!important;
-            border-top-right-radius: 15px;
-            border-top-left-radius: 15px;
-            top: 5rem;
-            height: 24rem;
-        }
+    
 
         
-        .div1 h1{
-            top:15rem;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif!important;
-            
-        }
-        
-        .card1{
-            position:relative;
-            bottom:6.7em;
-         border-color: #000000 1px!important;
-        
-            border-radius: 12px!important
-        }
+ 
 
         #attache{
             width: 0px;
@@ -922,23 +820,6 @@ h2 {
           
             /* font-size: small; */
         }
-
-        .demotext {
-            font-size: 1.8rem!important;
-            color: #9a98a5;
-            background: #000000;
-            text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c70909 0px 0px 20px, #c20000 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-            color: #07024d;
-            background: #000000;
-                font-family: 'Monoton', cursive;
-        
-            font-family: 'Special Elite', cursive;
-            }
-
-
-            .box-competence h3{
-                font-size: 1.4rem!important;
-            }
     }
 
 
