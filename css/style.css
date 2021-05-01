@@ -3,7 +3,10 @@ html{
     height: 100%;
  }
  body{
-     background-color:rgb(212, 212, 212)!important;
+     /* background-color:rgb(255, 255, 255)!important; */
+     background-image: url("../img/BAMBOO\ TORREFIE.jpg");
+     background-repeat: repeat;
+     background-size: cover;
  }
 
  /* ARCHITECTURE DESTOCK */
@@ -15,25 +18,32 @@ html{
 .container .navbar {background-color: rgba(40, 71, 47, 0.404)!important;
 }
 
- .section0{height: 80px;}
-.section1{height: 700px;background-color: rgb(138, 135, 135);color: white;padding-top: 0px;margin-bottom: 0px;
+.section0{height: 80px;}
+.section1{height: 700px;background-color: rgb(209, 153, 153);color: white;padding-top: 0px;margin-bottom: 0px;
     border-radius: 10px;
     padding: 2px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image:url("../img/img-competence/bleu\ numerique.jpg");}
+   background-size: cover;
+    background-image:url("../img/img-competence/2.jpg");
 
-.sectionA{ background-color: rgb(29, 58, 73);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+}
+
+.sectionA{ background-color: rgba(236, 131, 131, 0.746);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;}
+    
+
+.sectionC{ background-color: rgb(85, 127, 148);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;}
 
-.sectionB{background-color:  rgb(29, 58, 73);color: rgb(182, 169, 169); border: rgb(41, 38, 38) solid 1px;margin-top: 0px;
+.sectionB{background-color:  rgb(111, 197, 109); border: rgb(41, 38, 38) solid 1px;margin-top: 0px;
     margin-bottom: 10px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     /* font-size: 90%; */
-    color: rgb(223, 222, 246);
+    color: rgb(255, 255, 255);
 }
 
 .boxA{
@@ -59,7 +69,7 @@ html{
 h1{color: rgb(91, 160, 133);font-size:200%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
 }
 
-.h2{color: rgb(62, 62, 158);font-size:400%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
+.h2{color: rgb(99, 99, 112);font-size:400%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
 }
 
 .section1, h2{color: rgb(29, 29, 29);font-size:100%!important;}
@@ -273,34 +283,15 @@ footer{
 }
 
 
-.attache{
-    
-    height: 200px!important;
-   float: right;
-    position: relative;
-    bottom: 40px;
- left: 200px;
-    z-index: 9;
 
-    /* font-size: small; */
-}
 
-#attache2{
-    
-    height: 100px;
-  
-    position: relative;
-    top: 45px;
-    left: 180px;
-    z-index: 5;
-  
-    /* font-size: small; */
-}
+
 
 
 .demotext {
- top: 900px;
-    font-size: 3.8rem!important;
+position: relative;
+    font-size: 1.8rem!important;
+  
     color: #2b1277;
    
     text-shadow: rgb(0, 0, 0) 0px 0px 2px, rgb(0, 0, 0) 0px 0px 10px, rgb(143, 148, 168) 0px 0px 15px, #e6e6fb 0px 0px 20px, #e2e2ee 0px 0px 30px, #2a52a8 0px 0px 40px, #dfc599 0px 0px 50px, #241f2e 0px 0px 75px;
@@ -318,9 +309,9 @@ footer{
        
         color: #a59898;
         background: #000000;
-        text-shadow: rgb(32, 30, 30) 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #0003b9 0px 0px 20px, #0d00c2 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-        color: #000000;
-        background-color:rgb(0, 0, 0)!important;
+        text-shadow: rgb(32, 30, 30) 0px 0px 2px, #FFF 0px 0px 10px, #FFF 0px 0px 10px, #0003b9 0px 0px 15px, #0d00c2 0px 0px 20px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 15px;
+        color: #9de694;
+        background-color:rgb(37, 36, 36)!important;
         }
 
 
@@ -659,15 +650,7 @@ footer{
 
 
 
-.attache{
-    width: 80px;
-    display: flex;
-    position: relative;
-   /* right: 50px!important; */
-   top: 40px!important;
-    z-index: 5;
-    /* font-size: small; */
-}
+
 
 
 
@@ -798,59 +781,18 @@ h2 {
         
  
 
-        #attache{
-            width: 0px;
-           
-            position: relative;
-            bottom: 0px;
-            right: 0px;
-            z-index: 5;
-          
-            /* font-size: small; */
-        }
-
-        #attache2{
-    
-            height: 0px;
-          
-            position: relative;
-            top: 0px;
-            left: 0px;
-            z-index: 5;
-          
-            /* font-size: small; */
-        }
+     
     }
 
 
     /* MOYEN ECRAN SMARTPHONE*/
     @media all and (max-width: 990px ){
-        #attache2{
-    
-            height: 60px;
-          
-            position: relative;
-            top: 35px;
-            left: 110px;
-            z-index: 5;
-          
-            /* font-size: small; */
-        }
+ 
 
     }
 
     @media all and (max-width: 400px ){
-        #attache2{
-    
-            height: 60px;
-          
-            position: relative;
-            top: 35px;
-            left: 40px;
-            z-index: 5;
-          
-            /* font-size: small; */
-        }
+
 
     }
 
@@ -863,3 +805,39 @@ h2 {
     /* GRAND ECRAN */
 
     
+
+
+
+
+
+
+  
+
+    .attache{
+        background-image: url("../img/icons/attache.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        float: right;
+        width: 80px;
+        height: 80px;
+        bottom: 40px;
+        right: 30px;
+      
+    }
+
+    .attache2{
+        background-image: url("../img/icons/attache.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        float: left;
+        width: 90px;
+        height: 180px;
+        bottom: 100px;
+     left: 30px;
+       
+      
+       
+   
+      
+    }
+
