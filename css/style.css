@@ -9,6 +9,10 @@ html{
      background-size: cover;
  }
 
+.p{
+    margin-left: 20px;
+}
+
  /* ARCHITECTURE DESTOCK */
  /* NARBAR */
 .navbar{background-color:rgb(42, 41, 41)!important;
@@ -28,23 +32,30 @@ html{
 
 }
 
-.sectionA{ background-color: rgba(236, 131, 131, 0.746);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+.sectionA{ background-color: rgba(164, 230, 144, 0.479);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;}
     
 
-.sectionC{ background-color: rgb(85, 127, 148);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+.sectionC{ background-color: rgba(85, 127, 148, 0.698);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;}
 
-.sectionB{background-color:  rgb(111, 197, 109); border: rgb(41, 38, 38) solid 1px;margin-top: 0px;
+.sectionB{background-color:  rgba(120, 204, 119, 0.692); border: rgb(41, 38, 38) solid 1px;margin-top: 0px;
     margin-bottom: 10px;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 300;
     /* font-size: 90%; */
-    color: rgb(255, 255, 255);
+    color: rgb(27, 16, 80);
 }
+.sectionD{ background-color: rgba(226, 207, 35, 0.219);color: white;border:rgba(52, 80, 117, 0.507) solid 3px;margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;}
+
+.sectionE{ background-color: rgba(4, 2, 7, 0.472);color: white;border:rgba(52, 80, 117, 0.507) solid 3px;margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;}
 
 .boxA{
     border: white;height: 200px;
@@ -53,7 +64,7 @@ html{
 .boxB{ height: 200px;/* background-color: yellow; */
     }
 
-.redline{background-color: rgb(64, 119, 119);height: 3px;}
+.redline{background-color: rgba(64, 119, 119, 0);height: 3px;}
 
  /*FIN ARCHITECTURE DESTOCK */
 
@@ -66,12 +77,18 @@ html{
 
  /* POLICE DESTOCK */
 
+
+
 h1{color: rgb(91, 160, 133);font-size:200%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
 }
 
-.h2{color: rgb(99, 99, 112);font-size:400%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive; 
+.h2{color: rgb(49, 28, 18);font-size:400%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive;
+    text-shadow: #ffffff 1px 10px 10px; 
 }
 
+.h3.mt-3{color: rgb(246, 243, 242);font-size:190%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive;
+    text-shadow: #ffffff 1px 10px 10px; 
+}
 .section1, h2{color: rgb(29, 29, 29);font-size:100%!important;}
 
 
@@ -82,7 +99,9 @@ h2{color: rgb(29, 29, 29);font-size:300%!important;font-family: 'Monoton', cursi
 
 
 
-
+.img-phone{
+    height: 15rem!important;
+}
 
 
 
@@ -290,7 +309,7 @@ footer{
 
 .demotext {
 position: relative;
-    font-size: 1.8rem!important;
+    font-size: 1.5rem!important;
   
     color: #2b1277;
    
@@ -654,7 +673,6 @@ position: relative;
 
 
 
-
 }
 /* Fin paramètre média queries */
 
@@ -674,9 +692,7 @@ position: relative;
     color: white;
 }
 
-.ico-wrap {
-    margin: auto;
-}
+
 
 .mbr-iconfont {
     font-size: 4.5rem !important;
@@ -689,7 +705,7 @@ position: relative;
     margin: auto;
 }
 
-.mbr-section-title3 {
+.mbr-fonts-style {
     color: rgb(51, 38, 38);
 }
 
@@ -704,22 +720,14 @@ h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
-.display-5 {
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 1.4rem;
-}
-.mbr-bold {
-    font-weight: 700;
-}
+
 
  p {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     line-height: 25px;
 }
-.display-6 {
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 1rem}
+
 
 
 
@@ -774,7 +782,9 @@ h2 {
     /* PETIT ECRAN SMARTPHONE */
     @media all and (max-width: 320px){
 
-
+        .mbr-fonts-style{
+            font-size: 3px!important;
+        }
 
     
 
@@ -787,13 +797,68 @@ h2 {
 
     /* MOYEN ECRAN SMARTPHONE*/
     @media all and (max-width: 990px ){
- 
+        /* Supprime le visuel de l tattache sur petit écran en début de page */
+        .attache2{
+            background-image: url("../img/icons/attache.svg");
+            background-repeat: no-repeat;
+            width: 0px!important;
+            height: 0px!important;
+      
+        }
+
+        .attache{
+            background-image: url("../img/icons/attache.svg");
+            background-repeat: no-repeat;
+            position: relative;
+            float: right;
+            width: 9vh!important;
+            /* height: 10px; */
+           margin-top: 10px;
+            left: 2px;
+        }
+
+/* police */
+
+.h2{color: rgb(49, 28, 18);font-size:190%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive;
+    text-shadow: #ffffff 1px 10px 10px; 
+}
+
+.h3{color: rgb(246, 243, 242);font-size:190%!important;font-family: 'Monoton', cursive;font-family: 'Special Elite', cursive;
+    text-shadow: #ffffff 1px 10px 10px; 
+}
+
+.demotext {
+    position: relative;
+        font-size: 1.1rem!important;
+      
+        color: #2b1277;
+       
+        text-shadow: rgb(0, 0, 0) 0px 0px 2px, rgb(0, 0, 0) 0px 0px 10px, rgb(143, 148, 168) 0px 0px 15px, #e6e6fb 0px 0px 20px, #e2e2ee 0px 0px 30px, #2a52a8 0px 0px 40px, #dfc599 0px 0px 50px, #241f2e 0px 0px 75px;
+        color: #16024d;
+        background-color:rgba(29, 58, 73, 0.466)!important;
+     
+     
+            font-family: 'Monoton', cursive;
+    
+        font-family: 'Special Elite', cursive;
+        }
+
+   
+
+        /* IMAGES */
+        .img-phone{
+            height: 12rem!important;
+        }
+
+
+      
+
+
 
     }
-
+    /*FIN MEDIA MOYEN ECRAN SMARTPHONE*/
     @media all and (max-width: 400px ){
-
-
+  
     }
 
     /* ECRAN TABLETTE */
@@ -831,13 +896,8 @@ h2 {
         position: relative;
         float: left;
         width: 90px;
-        height: 180px;
-        bottom: 100px;
+        height: 80px;   
+        bottom: 45px;
      left: 30px;
-       
-      
-       
-   
-      
     }
 
