@@ -49,7 +49,7 @@ html{
     /* font-size: 90%; */
     color: rgb(27, 16, 80);
 }
-.sectionD{ background-color: rgba(226, 207, 35, 0.219);color: white;border:rgba(52, 80, 117, 0.507) solid 3px;margin-top: 10px;
+.sectionD{ background-color: rgba(216, 34, 17, 0.596);color: rgb(255, 255, 255);border:rgba(52, 80, 117, 0.507) solid 3px;margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;}
 
@@ -64,7 +64,7 @@ html{
 .boxB{ height: 200px;/* background-color: yellow; */
     }
 
-.redline{background-color: rgba(64, 119, 119, 0);height: 3px;}
+.redline{background-color: rgb(64, 119, 119);height: 3px;}
 
  /*FIN ARCHITECTURE DESTOCK */
 
@@ -234,11 +234,12 @@ footer{
     background-color: black!important;
 }
 
+
 .navbar .mbr-iconfont {
 	font-size: 2rem !important;
 	color: rgb(13, 144, 31)!important;
-	margin: 1rem;
-	padding-right: 1rem;
+
+
 }
 
 
