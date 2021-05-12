@@ -32,7 +32,7 @@ html{
 
 }
 
-.sectionA{ background-color: rgba(164, 230, 144, 0.479);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+.sectionA{ background-color: rgba(164, 230, 144, 0.479);color: rgb(26, 20, 20);border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;}
     
@@ -802,8 +802,12 @@ h2 {
         .attache2{
             background-image: url("../img/icons/attache.svg");
             background-repeat: no-repeat;
-            width: 0px!important;
-            height: 0px!important;
+            position: relative;
+            float: right;
+            width: 9vh!important;
+            /* height: 10px; */
+           margin-top: 10px;
+            left: 2px;
       
         }
 
@@ -895,10 +899,10 @@ h2 {
         background-image: url("../img/icons/attache.svg");
         background-repeat: no-repeat;
         position: relative;
-        float: left;
-        width: 90px;
-        height: 80px;   
-        bottom: 45px;
-     left: 30px;
+        float: right;
+        width: 80px;
+        height: 80px;
+        bottom: 65px;
+        right: 30px;
     }
 
