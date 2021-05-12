@@ -117,14 +117,6 @@ h2{color: rgb(29, 29, 29);font-size:300%!important;font-family: 'Monoton', cursi
 
 
 
-
-
-#cat{
-    width: 80px;
-    height: 80px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-}
 /* **************************************************************** */
 /* **************************************************************** */
 
@@ -589,8 +581,8 @@ position: relative;
 /* **************************************************************** */
 
 .imgsection{
-    width: 350px!important;
-    height: 200px!important;
+    width: 750px!important;
+    height: 230px!important;
     /* margin-left: 20%;
     margin-top: 5%; */
 }
