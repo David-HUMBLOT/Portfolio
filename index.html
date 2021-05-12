@@ -47,17 +47,20 @@
       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="navbar-collapse collapse" id="navbarResponsive">
+      <div class="col redline"></div>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link   mx-5" href="#competence">Mes compétences</a>
+          <a class="nav-link   mx-5" href="#hardskill">Hard skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link   mx-5" href="#softskill">Soft skill</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link  mx-5" href="#parcours">Mon parcours</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link   mx-5" href="#realisation">Mes réalisations</a>
-        </li>
+
         <li class="nav-item">
           <a class="nav-link  mx-5" href="#contact">Me contacter</a>
         </li>
@@ -71,16 +74,23 @@
 <section>
   <div class=" demotext section1 pt-5">
     <div class=" text-center pt-5 mt-5 ">
-      <h1 class="mt-5">PORTFOLIO</h1>
-      <h3 class=" text-white bounceIn">Développeur web junior</h2>
-        <h3 class=" text-white bounceIn">HUMBLOT David</h3>
-        <a href="./img/documents/CV.pdf" download class="btn btn-primary ">Télécharger
+      <h1 class="mt-5 mb-5">PORTFOLIO</h1>
+      <h3 class=" text-warning bounceIn">Développeur web junior</h2>
+        <h3 class=" text-warning bold bounceIn">HUMBLOT David</h3>
+        <a href="./img/documents/CV.pdf" download class="btn btn-primary mt-5">Télécharger
           mon
           CV</a>
+    
     </div>
   </div>
 </section>
 
+<div class="demotext mt-5  col ">
+  <p class="col-12 mt-3 text-light text-center">Suivez moi sur GitHub!<br><br>
+    <a href="https://github.com/"> ->> &nbsp&nbsp C'est par ici! &nbsp&nbsp <<- </a>
+  </p>
+
+</div>
 
 <section class="sectionD container mt-5 col-11 portfolio d-flex justify-content-around  ">
   <div class="mt-4 ml-3 col">
@@ -120,19 +130,24 @@
     </div>
 </section>
 <!-- ****************************************** -->
-<div id="competence"></div>
-<div class="col  d-flex text-center m-5  redline"></div>
+<div id="hardskill"></div>
+<div class="col-10 offset-1 d-flex  mt-5 mb-5  redline"></div>
 <div class="m-3"></div>
 <!-- ****************************************** -->
 
-<!-- COMPETENCE -->
+<!--HARD SKILL COMPETENCE -->
 <section class="container  div col-11 col-xs-12">
   <div class="row col-xs-12">
-    <div class="col pt-5 text-center">
-      <h2 class="h2 mb-5">MES COMPETENCES </h2>
+    <div class="col  text-center">
+      <h2 class="h2 ">HARD SKILL</h2>
+
+      
     </div>
   </div>
 </section>
+<div class="mb-5 demotext  container col-12  d-flex justify-content-around">
+  <i class="m-3 text-light">Compétence technique</i>
+</div>
 
 <div data-aos="zoom-in">
 </div>
@@ -144,7 +159,10 @@
           <span class="attache"></span>
           <div class="ml-3 ">
             <h3>Languages</h3>
-            <p>J'utilise actuellement ...</p>
+            <p>
+            Que se soit de l'intégration ou de la réalisation de CRUD, de la sécurisation ou de la conception de la base de données, 
+            de la mise en ligne ...<br>
+            <br>J'utilise actuellement : </p>
           </div>
           <div class="mb-3 mt-5 ">
             <div class="row ml-1 skillbar">
@@ -294,7 +312,7 @@
             </ul>
           </div>
 
-          <div class="my-env ">
+          <div class=" ">
             <div class="col">
               <div class="my-env-title my-env-desc">
                 <img src="img/img-competence/msql2.png" class="img-environement">
@@ -416,8 +434,24 @@
     </div>
   </section>
 
+  <!-- ****************************************** -->
+  <div id="softskill"></div>
+  <div class="col-10 offset-1 d-flex  mt-5 mb-5  redline"></div>
+  <div class="m-3"></div>
+  <!-- ****************************************** -->
 
+  <!--SOFT SKILL COMPETENCE -->
+  <section class="container  div col-11 col-xs-12">
+    <div class="row col-xs-12">
+      <div class="col  text-center">
+        <h2 class="h2 ">SOFT SKILL </h2>
+      </div>
+    </div>
+  </section>
 
+  <div class="mb-5 demotext container col-12  d-flex justify-content-around">
+    <i class="m-3 text-light">Compétence comportemental</i>
+  </div>
 
   <!-- SAVOIR FAIRE -->
   <section class=" container col-11 mt-5 justify-content-between">
@@ -460,7 +494,7 @@
   <!-- MON PARCOURS -->
   <!-- ****************************************** -->
   <div id="parcours"></div>
-  <div class="col  d-flex text-center m-5  redline"></div>
+  <div class="col-10 offset-1 d-flex  mt-5 mb-5  redline"></div>
   <div class="m-3"></div>
   <!-- ****************************************** -->
   <!-- TITRE PARCOURS -->
@@ -619,13 +653,19 @@
         <div class="row ">
 
           <!-- ME CONTACTER -->
-          <div class="container  div col-11 col-xs-12">
+          <!-- ****************************************** -->
+          <div id="contact"></div>
+          <div class="col-10 offset-1 d-flex  mt-5 mb-5  redline"></div>
+          <div class="m-3"></div>
+          <!-- ****************************************** -->
+          <!-- TITRE ME CONTACTER -->
+          <section class="container   col-12 col-xs-12">
             <div class="row col-xs-12">
               <div class="col pt-5 text-center">
                 <h2 class="h2">ME CONTACTER </h2>
               </div>
             </div>
-          </div>
+          </section>
 
     </section>
 
@@ -633,7 +673,7 @@
 
 
 
-    <div id="contact" class="paddsection mx-3">
+    <section class="mb-5 mx-3">
       <div class="container">
         <div class="">
           <div class="row">
@@ -644,10 +684,16 @@
                 <h5 class="ml-5 mt-4 mb-3">HUMBLOT David</h5>
 
                 <ul class="">
-                  <li><span>4, Lotissement</span></li>
-                  <li><span>Bras-panon, Ile de la Réunion</span></li>
-                  <li><span>0692749343</span></li>
-                  <li><span>alavingregory552@gmail.com</span></li>
+                  <li class="mb-3">
+                    6 rue Jean Cocteau Appt 101<br>
+                    Résidence Saint-Exupéry<br>
+                    97400 Saint-Denis.
+                    Ile de la Réunion<br>
+                  </li>
+                  <li class="mb-3">
+                    Tél: 06 93 92 22 27
+                  </li>
+                  <li class="mb-3"></li>
                 </ul>
 
               </div>
@@ -707,21 +753,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-
-
-
-
-    <!-- ME CONTACTER -->
-
-
-
-
-
-
-
-
+    </section>
 
 
 
