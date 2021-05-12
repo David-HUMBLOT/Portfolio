@@ -33,11 +33,15 @@ html{
 }
 
 .sectionA{ background-color: rgba(164, 230, 144, 0.479);color: rgb(26, 20, 20);border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
     margin-bottom: 10px;
     border-radius: 10px;}
     
 
 .sectionC{ background-color: rgba(85, 127, 148, 0.698);color: white;border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
     margin-bottom: 10px;
     border-radius: 10px;}
 
@@ -50,10 +54,14 @@ html{
     color: rgb(27, 16, 80);
 }
 .sectionD{ background-color: rgba(216, 34, 17, 0.596);color: rgb(255, 255, 255);border:rgba(52, 80, 117, 0.507) solid 3px;margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
     margin-bottom: 10px;
     border-radius: 10px;}
 
 .sectionE{ background-color: rgba(4, 2, 7, 0.472);color: white;border:rgba(52, 80, 117, 0.507) solid 3px;margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
     margin-bottom: 10px;
     border-radius: 10px;}
 
