@@ -34,6 +34,7 @@ html{
 
 .sectionA{ background-color: rgba(164, 230, 144, 0.479);color: rgb(26, 20, 20);border:rgb(52, 80, 117) solid 3px;margin-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* backdrop-filter: blur(70px)!important; */
     font-weight: 300;
     margin-bottom: 10px;
     border-radius: 10px;}
