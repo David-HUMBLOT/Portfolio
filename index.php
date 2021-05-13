@@ -810,10 +810,8 @@
                     <div class="col-lg-12">
                       <!-- <input type="submit" class="btn btn-defeault btn-send" value="Envoyer un message"> -->
                     </div>
-
                   </div>
                 </form>
-             
             </div>
             </div>
           </div>
