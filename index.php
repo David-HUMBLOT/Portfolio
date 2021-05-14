@@ -125,7 +125,7 @@
       <br>
 
       Dans un second temps pour une revanche personnel. En effet durant mes années d'étudiant à l'université ce parcours
-      fut supprimé. De plus, les circonstances de la vie m'ont contrains à prendre un autre chemin.
+      fut supprimé. De plus, les circonstances de la vie m'ont contraints à prendre un autre chemin.
     </p>
 
     <div data-aos="fade-up" data-aos-duration="3900">
@@ -165,9 +165,9 @@
           <div class="ml-3 ">
             <h3 class="mt-5">Languages</h3>
             <p>
-              Que ce soit de l'intégration ou de la réalisation de CRUD, de la sécurisation ou de la conception de la
-              base de données,
-              de la mise en ligne ...<br>
+              De l'intégration à la réalisation de CRUD, de la sécurisation aux conceptions de 
+              base de données...<br>
+              
               <br>J'utilise actuellement :
             </p>
           </div>
@@ -478,7 +478,7 @@
 
           <h3 class="mt-3 mx-3">Savoir être</h3>
           <div>
-            <p>Mes expériences professionnelles m'ont permis d'être quelqu'un de rigoureux, de calme et de
+            <p>Mes expériences professionnelles et personnel m'ont permis d'être quelqu'un de rigoureux, de calme et de
               responsable.
               Je sais tenir face à la pression et le temps.<br>
               J'anticipe toujours d'éventuels problème avant même qu'elle ne surviennent.</p>
@@ -505,33 +505,23 @@
               ainsi
               progresser serainement.</p>
             <p>Organiser chaque tâche selon un délai en prenant compte des compétences propres à chacun.</p>
-            <p>Je sais apprendre de mes propres erreurs et faire en sorte de me perfectionner au quotidien. Prendre du
+            <p>J'apprends de mes propres erreurs et faire en sorte de me perfectionner au quotidien. Prendre du
               recul permets souvent d'avancer efficacement.
 
             </p>
-            <p>Rassurer et tirer vers le haut chaque membre d'une équipe. Dans le but d'avancer tous ensemble vers
+            <p>Rassurer et tirer vers le haut chaque membre d'une équipe. Le but étant d'avancer tous ensemble vers
               les mêmes objectifs avec la même énergie. Garder cette cohésion est importante non seulement pour un projet
               mais aussi pour le moral de tous.</p>
           </div>
-
         </div>
-
-
       </div>
   </div>
   </section>
 
-
-
-
-
-  <!-- MON PARCOURS -->
-  <!-- ****************************************** -->
   <div id="parcours"></div>
   <div class="col-10 offset-1 d-flex  mt-5  redline"></div>
   <div class=""></div>
-  <!-- ****************************************** -->
-  <!-- TITRE PARCOURS -->
+
   <section class="container  div col-11 col-xs-12">
     <div class="row col-xs-12">
       <div class="col pt-5 text-center">
@@ -539,9 +529,6 @@
       </div>
     </div>
   </section>
-
-
-
 
   <!-- image with jquery -->
   <section class="container">
@@ -571,7 +558,7 @@
           <div class="text2">
             <h3>DEVELOPPEUR WEB JUNIOR</h3>
             <h3>09/2020 au 03/2021</h3>
-            <p>Formation SIMPLON Réunion-Coder et déployer une application web simple.</p>
+            <p>Formation SIMPLON Réunion - Coder et déployer une application web simple.</p>
           </div>
         </div>
       </div>
@@ -585,11 +572,6 @@
           </div>
         </div>
       </div>
-
-
-
-
-
     </div>
 
   </section>
@@ -626,12 +608,11 @@
             HTML5/PHP/CSS/JAVASCRIPT/BOOSTRAP/JQUERY.<br>
             JSON, Mysql, Base de donnée.<br>
             Réalisation de CRUD et sécurisation de formulaire.<br>
-            Déploiement en local ou en ligne d'un application web.
+            Déploiement  en ligne.
           </p>
         </div>
       </div>
     </div>
-
 
     <div data-aos="fade-up" data-aos-duration="3900">
       <!-- RESTAURATION -->
@@ -656,12 +637,10 @@
             <li>AGENT POLYVALENT SERVEUR</li>
           </ul>
           <p>
-            Gestion d'équipe : Planning, recrutement, assignation tâches.
-            Gestion fournisseurs : Commande de denrée , stockage, respect des normes d'hygiène alimentaire.
+            Gestion d'équipe : Planning, recrutement, assignation tâches.<br>
+            Gestion fournisseurs : Commande de denrée , stockage, respect des normes d'hygiène alimentaire.<br>
             Gestion bar/salle : Réservation clients, vente additionnel, accueil. Organisation événementielle.
           </p>
-
-
         </div>
       </div>
     </div>
@@ -681,16 +660,13 @@
             <p>Gestion Petite et Moyenne Structure</p>
           </div>
           <ul>
-            <li>Marketing, gestion, comptabilité</li>
-            <li>Etude de marché, prévisionnelle</li>
-            <li>Création d'entreprise</li>
-
+            <li>Marketing, gestion, comptabilité.</li>
+            <li>Etude de marché, prévisionnelle.</li>
+            <li>Création d'entreprise.</li>
           </ul>
         </div>
       </div>
     </div>
-
-
 
     <div data-aos="fade-up" data-aos-duration="3900">
       <!-- UNIVERSITE -->
@@ -710,8 +686,7 @@
           <p>Niveau Bac+2 en Biochimie</p>
           <ul>
             <li>Notion en informatique dédié à la biologie.
-              Language PYTHON, programmation séquentielle</li>
-
+              Language PYTHON</li>
             <li>
               Connaissance générale sur les sciences de la vie et de la terre.
             </li>
@@ -720,10 +695,8 @@
       </div>
     </div>
 
-
-  
       <section class="container col-11  box-competence pt-3 pb-4 ">
-       
+      
           <div class="row ">
             <div id="contact"></div>
             <div class="col-10 offset-1 d-flex  mt-5 mb-5  redline"></div>
@@ -771,7 +744,6 @@
                 <form action="" method="" role="" class=" mt-5">
                   <div class=" mb-5">ATTENTION !! Ce formulaire en cours de maintenance</div>
                   <div class="row">
-
                     <div class="col-lg-6">
                       <div class="form-group contact-block1">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom"
@@ -815,14 +787,13 @@
             </div>
             </div>
           </div>
-        
       </section>
     </div>
   </div>
 
       <footer class="py-5 bg-black">
         <div class="container">
-          <p class="m-0 text-center text-white small">Copyright © Your Website 2020</p>
+          <p class="m-0 text-center text-white small">Copyright © app-folio-david-humblot.herokuapp.com 2021</p>
         </div>
         <!-- /.container -->
       </footer>
