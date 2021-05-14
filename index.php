@@ -86,7 +86,7 @@
 </section>
 
 <div class="demotext mt-5  col ">
-  <p class="col-12 mt-3 text-light text-center">Suivez moi sur LinkeDin et GitHub!<br><br>
+  <p class="col-12 mt-3 text-light text-center">Suivez-moi sur LinkeDin et GitHub!<br><br>
     <a href="https://github.com/"> ->> &nbsp&nbsp GITHUB &nbsp&nbsp <<- </a>
   </p>
   <p class="col-12 mt-3 text-light text-center"> <a href="https://www.linkedin.com/in/david-humblot-8653821b8/"> ->>
@@ -125,7 +125,7 @@
       <br>
 
       Dans un second temps pour une revanche personnel. En effet durant mes années d'étudiant à l'université ce parcours
-      fut supprimé. De plus, les circonstances de la vie m'ont contraints à prendre un autre chemin.
+      fut supprimé. De plus, les circonstances de la vie m'ont contraints à prendre un tout autre chemin.
     </p>
 
     <div data-aos="fade-up" data-aos-duration="3900">
