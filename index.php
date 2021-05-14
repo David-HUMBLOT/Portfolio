@@ -124,8 +124,8 @@
       passion numérique.
       <br>
 
-      Dans un second temps, c'est un revanche personnel. En effet mes années d'étudiant à l'université, le parcours
-      dédié fut modifié et les circonstances de la vie ont faite que j'ai dû empreinter un autre chemin.
+      Dans un second temps pour une revanche personnel. En effet durant mes années d'étudiant à l'université ce parcours
+      fut supprimé. De plus, les circonstances de la vie m'ont contrains à prendre un autre chemin.
     </p>
 
     <div data-aos="fade-up" data-aos-duration="3900">
